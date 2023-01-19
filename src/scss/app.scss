@@ -27,3 +27,12 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.container{
+  display:grid;
+}
+
+.grid-item {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
